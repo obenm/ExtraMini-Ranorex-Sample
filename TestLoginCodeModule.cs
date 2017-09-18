@@ -90,9 +90,9 @@ namespace phar
             string[] userList = SplitString(user);
             string[] branchList = SplitString(branch);
             
-           	Delay.Milliseconds(3000);
+			Delay.Milliseconds(3000);
            	
-           	SetFields(userList[0], password, branchList[0]);
+			SetFields(userList[0], password, branchList[0]);
             btnLogin.Click();
             
             Delay.Milliseconds(5000); 
