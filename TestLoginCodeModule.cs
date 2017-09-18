@@ -160,7 +160,7 @@ namespace phar
         private void PrintAttemptFailed()
         {
         	Report.Log(Ranorex.ReportLevel.Info, "Attempt Failed");
-        	Report.Info("Info", "Attempt to Login Failed!"
+        	Report.Info("Info", "Attempt to Login Failed!");
         }
         
     }
